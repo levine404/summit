@@ -1,13 +1,11 @@
+import MenuButton from "./MenuButton";
+
 const links = ['services', 'about', 'contact'];
 
 const Menu = () => {
   return (
     <div id="menu">
-      {links.map(link => (
-        <div className="menu-link">
-          <a>{link}</a>
-        </div>
-      ))}
+      {links.map((link, index) => (<MenuButton name={link} key={index} />))}
       <style jsx>{`
         #menu {
           display: flex;

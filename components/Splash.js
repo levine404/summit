@@ -1,6 +1,7 @@
 import summitLogo from '../images/summit-logo.png';
 import splashImage from '../images/splash.jpg';
 import Menu from './Menu';
+import PhoneCall from './PhoneCall';
 
 const Splash = () => {
   return (
@@ -16,17 +17,11 @@ const Splash = () => {
         <br />
         Just Clean
       </div>
+      <PhoneCall />
       <div id="service-area">
         Serving Dandridge, Gatlinburg, Jefferson City, Kodak, Morristown, Pigeon Forge, Sevierville, White Pine
       </div>
       <style jsx>{`
-        #splash {
-          position: relative;
-          background-image: url(${splashImage});
-          background-size: cover;
-          background-position: center 30%;
-          min-height: calc(100% + 48px);
-        }
         #splash #menu {
           text-align: left;
         }
@@ -34,10 +29,10 @@ const Splash = () => {
           margin: 24px;
         }
         #slogan {
-          margin: 64px 48px;
+          margin: 72px 48px;
           font-family: 'Anton', sans-serif;
           font-weight: 900;
-          font-size: 300%;
+          font-size: 6vh;
           color: #fef119;
           text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
         }

@@ -1,9 +1,15 @@
-import Splash from '../components/Splash';
+import Splash from '../components/sections/splash/Splash';
+import About from '../components/sections/about/About';
+import Services from '../components/sections/services/Services';
+import Contact from '../components/sections/contact/Contact';
 
 const Page = () => {
   return (
     <div id="container">
       <Splash />
+      {/*<About />
+      <Services />
+      <Contact />*/}
       <style jsx global>{`
         html, body, #__next, #container {
           margin: 0;

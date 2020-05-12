@@ -5,7 +5,7 @@ import starsImage from '../../../images/stars.png';
 const LeaveAReviewButton = () => {
   return (
     <div id="leave-a-review-button">
-      <a href="https://www.homeadvisor.com/rated.SummitCarpet.93755636.html" target="_new">Leave A Review</a>
+      <a href="https://qrco.de/bbPDEi" target="_new">Leave A Review</a>
       <style jsx>{`
         #leave-a-review-button {
           cursor: pointer;

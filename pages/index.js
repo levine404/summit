@@ -2,14 +2,18 @@ import Splash from '../components/sections/splash/Splash';
 import About from '../components/sections/about/About';
 import Services from '../components/sections/services/Services';
 import Contact from '../components/sections/contact/Contact';
+import Head from 'next/head';
 
 const Page = () => {
   return (
     <div id="container">
+      <Head>
+        <title>Summit Carpet and Upholstery Cleaning</title>
+      </Head>
       <Splash />
-      {/*<About />
+      <About />
       <Services />
-      <Contact />*/}
+      <Contact />
       <style jsx global>{`
         html, body, #__next, #container {
           margin: 0;

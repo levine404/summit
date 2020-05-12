@@ -3,7 +3,7 @@ import React from 'react';
 const MenuButton = ({ name }) => {
   return (
     <div className="menu-link">
-      <a>{name}</a>
+      <a href={'#' + name}>{name}</a>
       <style jsx>{`
         .menu-link {
           padding: 12px 16px;

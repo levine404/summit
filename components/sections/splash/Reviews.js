@@ -1,6 +1,7 @@
 import React from 'react';
 
 import starsImage from '../../../images/stars.png';
+import qrCodeImage from '../../../images/qrcode.png';
 
 const LeaveAReviewButton = () => {
   return (
@@ -26,6 +27,7 @@ const Reviews = () => {
       </div>
       "We just bought a new house and of course the carpet needed cleaning! I called Mr Gilson and a time was set with my time schedule!! He was there when he said he would b and did a fantastic job on my carpet! This company is an outstanding company and I highly recommend it!"
       <LeaveAReviewButton />
+      <img src={qrCodeImage} width="100" className="qr-code" />
       <style jsx>{`
         #reviews {
           padding: 12px;
@@ -38,6 +40,9 @@ const Reviews = () => {
         }
         #review-stars {
           margin: 6px;
+        }
+        .qr-code {
+          margin: 12px;
         }
       `}</style>
     </div>
